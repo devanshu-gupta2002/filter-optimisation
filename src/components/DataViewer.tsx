@@ -66,7 +66,7 @@ const DataViewer: React.FC = () => {
       return Object.entries(filters).every(([col, val]) => row[col] === val);
     });
     setFilteredData(filtered);
-    setCurrentPage(1); // Reset to first page when filter changes
+    setCurrentPage(1);
   }, [filters, fullData]);
 
   const paginatedData = filteredData.slice(

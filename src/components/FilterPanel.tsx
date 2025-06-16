@@ -11,7 +11,7 @@ interface CSVDataRow {
   [key: string]: string;
 }
 
-// ⬇️ generateOptions extracted just like in the original file
+
 const generateOptions = (filteredData: CSVDataRow[], columns: string[]) => {
   const uniqueOptions = _.map(columns, (column: string) => {
     const uniqueValues = _.uniq(_.map(filteredData, column));

@@ -1,0 +1,23 @@
+/* DataViewer.css */
+.data-viewer {
+  position: relative;
+  z-index: 1;
+}
+
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.responsive-table th, 
+.responsive-table td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.responsive-table th {
+  background-color: #f8f9fa;
+  position: sticky;
+  top: 0;
+}

@@ -1,9 +1,12 @@
+import DataViewer from "./components/DataViewer"
+import FilterPanel from "./components/FilterPanel"
 
 function App() {
   return (
-    <>
-      hello
-    </>
+    <div>
+      <FilterPanel />
+      <DataViewer />
+    </div>
   )
 }
 
